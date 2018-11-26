@@ -1,4 +1,4 @@
 
 
-# This sample Android app demonstrates how to use MBaas cloud platform APIs using Parse Java script SDK.
+# This sample Android Mobile App demonstrates how to use MBaaS cloud platform APIs with Parse Java script SDK.
 
