@@ -13,14 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import React from 'react';
 
-import { StackNavigator } from 'react-navigation';
-import Home from './LoginHome';
+import { createStackNavigator, createAppContainer } from "react-navigation";
+import LoginHome from './LoginHome';
 import Login from './Login';
-import ParseUtil from './data/ParseUtil'
 
-const RootStack = StackNavigator({
+const AppNavigator = createStackNavigator({
   Login: {
     screen: Login,
   },
@@ -32,11 +30,4 @@ const RootStack = StackNavigator({
   },
 });
 
-
-export default class App extends React.Component {
-  
-  render() {
-    return <RootStack />;
-  }
-
-}
+export default createAppContainer(AppNavigator);

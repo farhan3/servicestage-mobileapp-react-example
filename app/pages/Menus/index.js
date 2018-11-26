@@ -24,7 +24,7 @@ import About from '../About'
 import Contact from '../Contact';
 import Signup from '../../Signup';
 
-import { StackNavigator } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation';
 
 const routeConfig = {
   Menu: { screen: Menu },
@@ -47,4 +47,4 @@ const StackNavigatorConfig = {
   }
 }
 
-export default Home = StackNavigator(routeConfig, StackNavigatorConfig);
+export default Home = createStackNavigator(routeConfig, StackNavigatorConfig);

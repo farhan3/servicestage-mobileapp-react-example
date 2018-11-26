@@ -4,6 +4,7 @@ import {
   View,
 } from 'react-native';
 
-import App from './app/';
+import App from './app/index.js';
 
+export default App;
 AppRegistry.registerComponent('QuickEats', () => App);

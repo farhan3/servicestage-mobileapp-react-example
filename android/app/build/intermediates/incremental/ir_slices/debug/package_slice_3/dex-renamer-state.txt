@@ -1,0 +1,4 @@
+#Mon Nov 26 12:50:14 EST 2018
+base.0=D\:\\ws\\writeup\\mbaas-react-demo\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+path.0=classes.dex
+renamed.0=classes.dex

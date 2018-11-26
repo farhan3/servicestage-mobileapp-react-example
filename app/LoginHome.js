@@ -16,31 +16,17 @@
 
 import { StyleSheet } from 'react-native';
 
-import { TabNavigator } from 'react-navigation';
+import { createStackNavigator, createAppContainer } from "react-navigation";
 
 import Menu from './pages/Menus';
 
-const TabConfig = {
+const AppNavigator = createStackNavigator({
   Menu: {
     screen: Menu,
     navigationOptions: {
         header: null,
     }
   },
-}
+});
 
-const TabStyleConfig = {
-  //no tab bar options as of now
-  //   tabBarOptions: {
-  //     activeTintColor: '#fe0000',
-  //   },
-  }
-
-export default LoginHome = TabNavigator(TabConfig, TabStyleConfig);
-
-const styles = StyleSheet.create({
-  icon: {
-    width: 48,
-    height: 48
-  }
-})
+export default createAppContainer(AppNavigator);
