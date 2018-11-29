@@ -1,9 +1,11 @@
 
 .project
+package-lock.json
 
 android/.gradle
 android/.idea
 android/local.properties
+android/app/src/main/assets/index.android.bundle
 
 android/app/build/
 node_modules/
