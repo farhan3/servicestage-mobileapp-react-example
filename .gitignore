@@ -1,0 +1,9 @@
+
+.project
+
+android/.gradle
+android/.idea
+android/local.properties
+
+android/app/build/
+node_modules/
