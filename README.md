@@ -4,5 +4,5 @@
 
 ***
 
-## [English Tutorial](./doc/en/tutorial/UsingHuaweiMobileBackend.md)
+## [Tutorial - Develop Mobile App using Huawei Mobile Backend and React Native ](./doc/en/tutorial/UsingHuaweiMobileBackend.md)
 
