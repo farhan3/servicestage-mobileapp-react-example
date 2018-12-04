@@ -6,7 +6,7 @@
 * [Prerequisite](./Prerequisite.md)
 * [Step 1:  Create Mobile Backend in Huawei Public Cloud](./Step1_CreateMobileBackend.md)
 * [Step 2:  Setup Android Studio, Node JS and Git](./Step2_Setup.md)
-* [Step 3:  Load React Native Sample from Github](./Step3_LoadSample)
+* [Step 3:  Load React Native Sample from Github](./Step3_LoadSample.md)
 * [Step 4:  Import sample data to Mobile Backend](./Step4_ImportData.md)
 * [Step 5:  (Optional) Build Mobile App using React Native](./Step5_BuildMobileApp.md)
 * [Step 6:  Connect Mobile App to Huawei Mobile Backend](./Step6_ConnectToMobileBackend.md)
