@@ -2,7 +2,7 @@
 
 1.	Run ‘git clone https://github.com/CPE-OAuth/servicestage-mobileapp-react-example.git’  
 
-2.	Change to **<path to>/servicestage-mobileapp-react-example**.  
+2.	Change to **{{path to}}/servicestage-mobileapp-react-example**.  
 
 3.	Run ‘npm install’ to install project dependency.  It may take some time to install all dependency.  Once completed, it shows a line similar to the below.  
 ![s3a.png](./imgs/s3a.png)  
@@ -14,7 +14,7 @@
 6.	Click **Open an existing Android Studio Project**.  
 ![s3b.png](./imgs/s3b.png)  
 
-7.	Select **<path to>/servicestage-mobileapp-react-example/android**.  Click OK.  
+7.	Select **{{path to}}/servicestage-mobileapp-react-example/android**.  Click OK.  
 
 8.	A dialog may show up asking for proxy information.  Update the proxy information if needed to continue.  
 ![s3c.png](./imgs/s3c.png)  
