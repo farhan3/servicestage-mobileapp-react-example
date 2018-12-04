@@ -23,7 +23,7 @@ b)  Use the React Native CLI to generate a new React Native project.  Run the fo
 c)  After creation success, you can find the new project structure as below.  
 ![s9c](./imgs/s9c.png)  
 
-d)	Review <rootdir>/App.js file.  It contains generated react native sample code that renders react native sample message when launched.  
+d)	Review {{rootdir}}/App.js file.  It contains generated react native sample code that renders react native sample message when launched.  
 
 e)	Babel is a JavaScript compiler.  Run the below command to install Babel modular runtime helpers.  
 
