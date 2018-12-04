@@ -4,7 +4,7 @@ At this point, setup of the Mobile Application sample, Android Studio and Emulat
 
 1.	**Important**:  If you are developing behind a proxy, proxy may return “Accept Risk page” when the emulator connect to the Mobile Backend.  Before continuing, follow Step 4 to open Mobile Backend Dashboard in your browser and “Accept Risk”.  Keep the Mobile Backend Dashboard alive to avoid proxy return “Accept Risk page” to the sample Mobile Application.  
 
-2.	Open a command prompt, change to **<path to>/servicestage-mobileapp-react-example**.  
+2.	Open a command prompt, change to **{{path to}}/servicestage-mobileapp-react-example**.  
 
 3.	Run the following command to bundle the react native code.  Note:  This is for running the sample from Android Studio.  Code modified need to be repackaged again to be effective.  There are other alternatives to run react native code on emulator.  
 
