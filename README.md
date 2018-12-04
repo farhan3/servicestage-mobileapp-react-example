@@ -1,4 +1,8 @@
 
 
-# This sample Android Mobile App demonstrates how to use MBaaS cloud platform APIs with Parse Java script SDK.
+# React Native sample using Huawei Mobile Backend service and Parse SDK
+
+***
+
+## [English Tutorial](./doc/en/tutorial/UsingHuaweiMobileBackend.md)
 
