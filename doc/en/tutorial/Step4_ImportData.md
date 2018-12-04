@@ -17,9 +17,9 @@ Follow the steps below to import sample data into Mobile Backend:
 
 5.	The sample data is in the **servicestage-mobileapp-react-example** github project loaded in Step 3.     
 
-First, upload the sample schema file locate at <path to>/servicestage-mobileapp-react-example>/data/All_Models_with_photo.json.  
+First, upload the sample schema file locate at {{path to}}/servicestage-mobileapp-react-example>/data/All_Models_with_photo.json.  
 
-Then select the sample photos files folder located at <path to>/servicestage-mobileapp-react-example\data\minpics.  
+Then select the sample photos files folder located at {{path to}}/servicestage-mobileapp-react-example\data\minpics.  
 
 6.	Click Upload to confirm and allow uploading files to the Mobile Backend.  
 ![s4d](./imgs/s4d.png)  
