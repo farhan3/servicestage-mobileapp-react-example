@@ -2,17 +2,17 @@
 
 ### Enable Virtualization in BIOS
 
-Android Studio emulator requires hardware acceleration.  It is done by enabling virtualization from the machineís BIOS.  
-1.	Find out how to get into BIOS menu of your laptop or desktop.  It usually involve rebooting machine and pressing some function key(s).  
-2.	Once logged into the BIOS menu, look for ìVirtualization Supportî items.  Enable them.
+Android Studio emulator requires hardware acceleration.  It is done by enabling virtualization from the machine‚Äôs BIOS.  
+1.	Find out how to get into BIOS menu of your laptop or desktop.  It usually involvse rebooting the machine and pressing some function key(s), e.g. F2.  
+2.	Once inside the BIOS menu, look for ‚ÄúVirtualization Support‚Äù items.  Enable them.
 
 ***
 
 ### Setup Android Studio
 
-Android Studio is an IDE for mobile application development.  It comes with mobile phone emulators for development and testing purpose.  We will use Android Studio as development tool in this tutorial.  
+Android Studio is an IDE for mobile application development.  It comes with mobile phone emulators for development and testing purposes.  We will use Android Studio as the development tool in this tutorial.  
 
-The following instruction is for installing Android Studio on Windows 10.  If you are running a different operating system or need more information.  Please visit [https://developer.android.com/studio/install](https://developer.android.com/studio/install)  
+The following instructions are for installing Android Studio on Windows 10.  If you are running a different operating system or need more information.  Please visit [https://developer.android.com/studio/install](https://developer.android.com/studio/install).  
 
 1.	Download latest Android Studio installer from the following link.  (https://developer.android.com/studio/).  For example: android-studio-ide-181.5056338-windows.exe  
 ![s2a](./imgs/s2a.png)
@@ -32,11 +32,11 @@ The following instruction is for installing Android Studio on Windows 10.  If yo
 6.	Click **Finish** to complete the installation.  
 ![s2f](./imgs/s2f.png)
 
-7.	When starting Android Studio the first time, if the laptop or desktop is behind proxy, it may ask for setup proxy information.  Enter proxy information.  
+7.	When starting Android Studio the first time, if the laptop or desktop is behind proxy, it may ask for proxy setup information.  Enter proxy information.  
 ![s2g](./imgs/s2g.jpg)  
 ![s2h](./imgs/s2h.png)  
 
-8.	If Android SDK is not installed, it will ask for installing Android SDK.  Follow the installer instruction to install Android SDK.  Use the provided default values.  
+8.	If Android SDK is not installed, it will ask you to install the Android SDK.  Follow the installer instructions to install Android SDK.  Use the provided default values.  
 ![s2i](./imgs/s2i.jpg)  
 
 9.	This is the screen when you start Android Studio the first time.  
@@ -48,10 +48,10 @@ The following instruction is for installing Android Studio on Windows 10.  If yo
 11.	The following screen shows up once the update is completed.  
 ![s2l](./imgs/s2l.png)  
 
-For more information, please refer to the following reference,  
+For more information, please refer to the following references:  
 
-[https://developer.android.com/studio/run/emulator-acceleration](https://developer.android.com/studio/run/emulator-acceleration)  
-[https://developer.android.com/studio/run/emulator](https://developer.android.com/studio/run/emulator)  
+- [https://developer.android.com/studio/run/emulator-acceleration](https://developer.android.com/studio/run/emulator-acceleration)  
+- [https://developer.android.com/studio/run/emulator](https://developer.android.com/studio/run/emulator)  
 
 ***
 
@@ -72,28 +72,28 @@ This tutorial uses **Android SDK Platform 25, 26, 27** and **Google APIs Intel x
 
 ***
 
-### (Optional) Setup Node JS
+### (Optional) Setup Node.js
 
-Node JS is a SDK / Programming Language used in this tutorial.   The version of Node JS used in this tutorial is v10.13.0.  Follow the step below to install Node JS.  
+Node JS is a SDK / Programming Language used in this tutorial.   The version of Node.js used in this tutorial is v10.13.0.  Follow the step below to install Node.js.  
 
-1.	Download the Node JS installer from this URL.  [https://nodejs.org/en/download/](https://nodejs.org/en/download/).  This tutorial is written with Windows 10 and uses the 64-bits Windows Installer (.msi)  
+1.	Download the Node.js installer from this URL.  [https://nodejs.org/en/download/](https://nodejs.org/en/download/).  This tutorial is written with Windows 10 and uses the 64-bits Windows Installer (.msi)  
 
 2.	After download is completed, double click the downloaded .msi file to start the installer.  
 ![s2p](./imgs/s2p.png)  
 
-3.	Follow the instruction to install Node JS.    
+3.	Follow the instructions to install Node.js.    
 
-4.	After installation is completed, verify the installation by open a command prompt.  Run ënode ñví and ënpm ñví to verify installation and version.  
+4.	After installation is completed, verify the installation by opening the Command Prompt.  Run ‚Äònode ‚Äìv‚Äô and ‚Äònpm ‚Äìv‚Äô to verify installation and version.  
 ![s2q](./imgs/s2q.png)  
 
-5.	(Optional)  Proxy setup.  Depends on the location of the laptop / desktop, proxy setting is needed.  Run the following command to configure proxy.  Change the proxy host and port to your company proxy accordingly.  
+5.	(Optional)  Proxy setup.  Depending on the location of the laptop / desktop, proxy settings may be needed.  Run the following command to configure proxy.  Change the proxy host and port to your company proxy accordingly.  
 
 ```
    npm config set proxy http://proxy.mycompany.com:8080
    npm config set https-proxy http://proxy.mycompany.com:8080
 ```
 
-Or use the below commands if id and password are required from proxy  
+Or use the below commands if id and password are required from proxy. If your password contains special characters, you will need to encode them, e.g. `#` will become `%23`
 
 ```
    npm config set proxy http://<user>:<password>@proxy.mycompany.com:8080
@@ -111,10 +111,10 @@ Git is a source code management tool used in this tutorial.  Follow the step bel
 2.	After download is completed, double click the downloaded .exe file to start the installer.  
 ![s2r](./imgs/s2r.png) 
 
-3.	Follow the instruction to install Git client.   This screen shows up when installation is completed.  
+3.	Follow the instructions to install the Git client. This screen shows up when installation is completed.  
 ![s2s](./imgs/s2s.png)  
 
-4.	(Optional)  Proxy setup.  Depends on the location of the laptop / desktop, proxy setting is needed.  Run the following command to configure proxy.  Change the proxy host and port to your company proxy accordingly.  
+4.	(Optional)  Proxy setup.  Depending on the location of the laptop / desktop, proxy settings may be needed.  Run the following command to configure proxy.  Change the proxy host and port to your company proxy accordingly.
 
 ```
    git config --global http.http://github.com.proxy http://<user>:<password>@proxy.mycompany.com:8080
