@@ -9,7 +9,7 @@
 ## Content
 
 * [Overview](./doc/en/tutorial/Overview.md)
-* [Prerequisite](./Prerequisite.md)
+* [Prerequisite](./doc/en/tutorial/Prerequisite.md)
 * [Step 1:  Create Mobile Backend in Huawei Public Cloud](./doc/en/tutorial/Step1_CreateMobileBackend.md)
 * [Step 2:  Setup Android Studio, Node JS and Git](./doc/en/tutorial/Step2_Setup.md)
 * [Step 3:  Load React Native Sample from Github](./doc/en/tutorial/Step3_LoadSample.md)
