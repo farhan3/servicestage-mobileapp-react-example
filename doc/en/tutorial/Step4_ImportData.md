@@ -12,24 +12,24 @@ Follow the steps below to import sample data into Mobile Backend:
 3.	Upon logging into the Mobile Backend, you are in the Data Management page, where you can import the sample data.  
 ![s4b](./imgs/s4b.jpg)  
 
-4.	Click Import, Import Schema dialog is shown. Choose Multiple Schema Objects  
+4.	Click Import to open the Import Schema dialog. Choose Multiple Schema Objects  
 ![s4c](./imgs/s4c.jpg)  
 
 5.	The sample data is in the **servicestage-mobileapp-react-example** github project loaded in Step 3.     
 
-First, upload the sample schema file locate at {{path to}}/servicestage-mobileapp-react-example>/data/All_Models_with_photo.json.  
+    First, upload the sample schema file located at {{path to}}/servicestage-mobileapp-react-example>/data/All_Models_with_photo.json.  
 
-Then select the sample photos files folder located at {{path to}}/servicestage-mobileapp-react-example\data\minpics.  
+    Then select the sample photos files folder located at {{path to}}/servicestage-mobileapp-react-example\data\minpics.  
 
 6.	Click Upload to confirm and allow uploading files to the Mobile Backend.  
 ![s4d](./imgs/s4d.png)  
 
 7.	Click OK to start the upload.  
 
-8.	File upload is in progress.  
+8.	File upload progress will be shown:  
 ![s4e](./imgs/s4e.jpg)  
 
-9.	Once the import success, it will bring you back to Data Management.  You should see the data models and data being imported.  Browse around the data and see what are imported.           
+9.	Once the import is successful, it will bring you back to Data Management.  You should see the data models and data imported.  Browse around the data and see what was imported.           
 
 
 
