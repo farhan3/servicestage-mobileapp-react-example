@@ -7,21 +7,21 @@ You have already completed Step 3 and loaded all the source code.  Here are how 
 ![s5a](./imgs/s5a.png)  
 
 Here are some of the key files / folders in the sample,
-*  The manifest file, located at {{rootdir}}/android/app/src/main/AndroidManifest.xml, describes essential information about your app like package name, components of the app, which include all activities, services, broadcast receivers, and content providers,  permissions that the app needs in order to access protected parts of the system or other apps.
-*  {{rootdir}}/app folder contains the sample app UI source.
-*  {{rootdir}}/index.android.js file register the main App component.
-*  {{rootdir}}/app/index.js file contains 2 pages (Login and Home) using StackNavigator.   StackNavigator is a library for screen navigation in React Native Mobile App.
+*  The manifest file, located at `{{rootdir}}/android/app/src/main/AndroidManifest.xml`, describes essential information about your app like package name, components of the app, which includes all activities, services, broadcast receivers, and content providers,  permissions that the app needs in order to access protected parts of the system or other apps.
+*  `{{rootdir}}/app` folder contains the sample app UI source.
+*  `{{rootdir}}/index.android.js` file registers the main App component.
+*  `{{rootdir}}/app/index.js` file contains 2 pages (Login and Home) using StackNavigator.   StackNavigator is a library for screen navigation in React Native Mobile App.
 
 This React Native Mobile App uses the following npm modules,
-*  ìreact-navigationî is the StackNavigator module.
-*  ìreact-native-gesture-handlerî provides native-driven gesture management APIs.  To finalise installation of react-native-gesture-handler for Android, modify MainActivity.java (locate at android\app\src\main\java\com\quickeats) as below.  
+*  `react-navigation` is the StackNavigator module.
+*  `react-native-gesture-handler` provides native-driven gesture management APIs.  To finalise installation of react-native-gesture-handler for Android, modify MainActivity.java (locate at android\app\src\main\java\com\quickeats) as below.  
 ![s5b](./imgs/s5b.png)  
 
 
-/app/index.js is where navigation defined.  ìcreateStackNavigatorî is a function that returns a React component. It takes a route configuration object as parameter.  It exports from /app/index.js and used as Mobile Appís root component in /index.android.js.  
+/app/index.js is where navigation defined.  ‚ÄúcreateStackNavigator‚Äù is a function that returns a React component. It takes a route configuration object as parameter.  It exports from /app/index.js and used as Mobile App‚Äôs root component in /index.android.js.  
 ![s5c](./imgs/s5c.png)  
 
-ìscreenî is a React component for the main content of a screen.  You can override the ìnavigationOptionsî for a screen as needed.
+‚Äúscreen‚Äù is a React component for the main content of a screen.  You can override the ‚ÄúnavigationOptions‚Äù for a screen as needed.
 The Login screen is imported from /app/Login.js. It renders the Login page UI components.  After the user login is successful the user is redirected to the Home screen.  
 
 For more information on navigation, please refer to [https://reactnavigation.org/docs/en/api-reference.html](https://reactnavigation.org/docs/en/api-reference.html).  
