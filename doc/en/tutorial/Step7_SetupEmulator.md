@@ -2,7 +2,7 @@
 
 We will use an emulator (Android Virtual Device) to run the Mobile Application described in this tutorial.  Follow the instructions below to add an emulator.  
 
-1.	**Important**:  There is port conflict between Windows 10 background process and Android Debugger Bridge (adb).  Both use port 5037.  To avoid this issue, change the ADB port.  At the start menu, search “Advance system settings”, then click “Environment Variables” at the bottom-right.  In the User variables section, add a new entry:  
+1.	**Important**:  There is port conflict between Windows 10 background process and Android Debugger Bridge (adb).  Both use port 5037.  To avoid this issue, change the ADB port.  At the Windows Start Menu, search â€œAdvance system settingsâ€, then click â€œEnvironment Variablesâ€ at the bottom-right.  In the User variables section, add a new entry:  
 
 ```
    ANDROID_ADB_SERVER_PORT = 6037
@@ -12,7 +12,7 @@ We will use an emulator (Android Virtual Device) to run the Mobile Application d
 
 3.	From the menu bar, click **Tools -> AVD Manager**.  
   
-4.	Click the **Create Virtual Device…** button.  
+4.	Click the **Create Virtual Deviceâ€¦** button.  
 
 5.	Select **Pixel 2**, then click **Next**.  
 ![s7a](./imgs/s7a.png)  
