@@ -1,13 +1,15 @@
 ### Step 3:  Load React Native Sample from Github
 
-1.	Run ‘git clone https://github.com/CPE-OAuth/servicestage-mobileapp-react-example.git’  
+1.	Open the Command prompt and navigate to your development workspace. Then run `git clone https://github.com/CPE-OAuth/servicestage-mobileapp-react-example.git`  
 
-2.	Change to **{{path to}}/servicestage-mobileapp-react-example**.  
+    If you are having issues cloning the project, you can instead visit the url and download the project as a zip.
 
-3.	Run ‘npm install’ to install project dependency.  It may take some time to install all dependency.  Once completed, it shows a line similar to the below.  
+2.	Change to `servicestage-mobileapp-react-example` directory using `cd {{path to}}/servicestage-mobileapp-react-example`
+
+3.	Run `npm install` to install project dependency.  It may take some time to install all dependency.  Once completed, it shows a line similar to the below.  
 ![s3a.png](./imgs/s3a.png)  
 
-4.	Run ‘npm install -g react-native-cli’ to install react native client.  
+4.	Run `npm install -g react-native-cli` to install react native client.  
 
 5.	Start Android Studio.  
 
@@ -19,8 +21,8 @@
 8.	A dialog may show up asking for proxy information.  Update the proxy information if needed to continue.  
 ![s3c.png](./imgs/s3c.png)  
 
-9.	(Optional) If you get connection issues in the next step, you may need to update the gradle properties file. For example, 
-edit C:\Users\<user_name>\.gradle\gradle.properties to include the following:  
+9.	(Optional) If you get connection issues in the next step because of the proxy, you may need to update the gradle properties file. For example, 
+edit `C:\Users\<user_name>\.gradle\gradle.properties` to include the following:
   
 
 ```
